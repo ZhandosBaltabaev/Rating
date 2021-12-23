@@ -1,0 +1,29 @@
+body {
+	margin: 150px;
+	font-family: 'Montserrat', sans-serif;
+
+	line-height: 1.6;
+	color: #fff;
+}
+
+.but {
+	display: inline-block;
+    background-color: red;
+	vertical-align: top;
+	border: 1px solid rgb(255, 254, 254);
+	padding: 30px 70px ;
+
+    font-family: 'Montserrat', sans-serif;
+	font-size: 40px;
+	font-weight: 200;
+	text-transform: uppercase;
+	text-decoration: none;
+
+	color: #fff;
+	transition: background .1s linear, color .1s linear;
+}
+
+.but:hover {
+	background-color: rgb(201, 28, 28);
+	color: rgb(243, 234, 234);
+}
